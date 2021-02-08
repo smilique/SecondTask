@@ -13,7 +13,7 @@ public class SymbolBasedTextProcessorTest {
     private final String EXPECTED_SUBSTRING = "former snow ok determine what a weather former";
 
     @Test
-    public void replaceSymbol() {
+    public void testSymbolBasedTextProcessorShouldReplaceSubstringWhenMatchWithConditionFound() {
 
         //given
 
@@ -26,7 +26,7 @@ public class SymbolBasedTextProcessorTest {
     }
 
     @Test
-    public void replaceSubstring() {
+    public void testSymbolBasedTextProcessorShouldReplaceSymbolWhenMatchWithConditionFound() {
 
         //given
 

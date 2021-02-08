@@ -13,7 +13,7 @@ public class RegexpBasedTextProcessorTest {
     private final String EXPECTED_SUBSTRING = "former snow ok determine what a weather former";
 
     @Test
-    public void replaceSymbol() {
+    public void testRegexpBasedTextProcessorShouldReplaceSubstringWhenMatchWithConditionFound() {
 
         //given
 
@@ -26,7 +26,7 @@ public class RegexpBasedTextProcessorTest {
     }
 
     @Test
-    public void replaceSubstring() {
+    public void testRegexpBasedTextProcessorShouldReplaceSymbolWhenMatchWithConditionFound() {
 
         //given
 

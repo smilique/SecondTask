@@ -1,4 +1,4 @@
-package com.epam.training.tasks.second.data;
+package com.epam.training.tasks.second.logic;
 
 public enum ProcessorType {
     STRING,
